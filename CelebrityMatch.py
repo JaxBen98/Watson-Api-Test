@@ -24,5 +24,7 @@ for status in statuses:
         text += status.text.encode('utf-8')
 
 #The IBM Bluemix credentials for Personality Insights!
-pi_username = ''
-pi_password = ''
+pi_username = 'PI_USERNAME'
+pi_password = 'PI_PASSWORD'
+
+personality_insights = PersonalityInsights(username=pi_username, password=pi_password)
