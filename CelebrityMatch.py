@@ -50,7 +50,7 @@ def flatten(orig):
                                             data[c3['id']] = c3['percentage']
     return data
 
-def compare(dict1, dict2);
+def compare(dict1, dict2):
     compared_data = {}
     for keys in dict1:
         if dict1[keys] != dict2[keys]:
