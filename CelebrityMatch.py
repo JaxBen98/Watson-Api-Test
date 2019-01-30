@@ -49,3 +49,10 @@ def flatten(orig):
                                         if (c3['category'] == 'personality'):
                                             data[c3['id']] = c3['percentage']
     return data
+
+def compare(dict1, dict2);
+    compared_data = {}
+    for keys in dict1:
+        if dict1[keys] != dict2[keys]:
+            compared_data[keys] = abs(dict1[keys] - dict2[keys])
+    return compared_data
