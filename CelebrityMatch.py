@@ -62,3 +62,8 @@ celebrity_handle = "@CELEBRITY_HANDLE"
 
 user_result = analyze(user_handle)
 celebrity_handle = analyze(celebrity_handle)
+
+user = flatten(user_result)
+celebrity = flatten(celebrity_result)
+
+compared_results = compare(user,celebrity)
