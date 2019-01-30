@@ -56,3 +56,6 @@ def compare(dict1, dict2);
         if dict1[keys] != dict2[keys]:
             compared_data[keys] = abs(dict1[keys] - dict2[keys])
     return compared_data
+
+user_handle = "@USER_HANDLE"
+celebrity_handle = "@CELEBRITY_HANDLE"
