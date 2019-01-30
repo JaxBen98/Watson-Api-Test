@@ -22,3 +22,7 @@ text = ""
 for status in statuses:
     if (status.lang =='en'): #English tweets only
         text += status.text.encode('utf-8')
+
+#The IBM Bluemix credentials for Personality Insights!
+pi_username = ''
+pi_password = ''
