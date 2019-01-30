@@ -59,3 +59,6 @@ def compare(dict1, dict2);
 
 user_handle = "@USER_HANDLE"
 celebrity_handle = "@CELEBRITY_HANDLE"
+
+user_result = analyze(user_handle)
+celebrity_handle = analyze(celebrity_handle)
