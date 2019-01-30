@@ -67,3 +67,13 @@ user = flatten(user_result)
 celebrity = flatten(celebrity_result)
 
 compared_results = compare(user,celebrity)
+
+sorted_result = sorted(compared_results.items(), key=operator.itemgetter(1))
+
+for keys, value in sorted_result[:5]:
+    print keys
+    print(user[keys]),
+    print ('->'),
+    print (celebrity[keys]),
+    print ('->'),
+    print (compared_results[keys])
