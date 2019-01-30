@@ -18,4 +18,4 @@ statuses = twitter_api.GetUserTimeline(screen_name=handle,
 count=200, include_rts=False)
 
 for status in statuses:
-    print status
+    print status.text
